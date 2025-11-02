@@ -1,8 +1,8 @@
 # Título do Projeto
 
-`CURSO`
+`DISCIPLINA`
 
-`NOME DO PROJETO`
+`NOME DO PROGRAMA`
 
 `ANO`
 
