@@ -10,16 +10,20 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Abraão Santos | @AbraãoGênesis
+* Dayane Ramos | @RamosDayane
+* Gabriel Henrique's | @Gabriel-HSM
+* Gisele Reis | @giseleprereis
+* Hugo Alves | @
+* Joadson Reis | @Joadsonreis1
+* Miguel Bispo Vianna | @miguel11xp
+* Nicole Menezes | @nclmenezes
+* Raylane Ferreira | @raylaneferreira
+* Victor Hugo | @victordelego-hub
 
 ## Orientador
 
-* Nome completo do professor
+* Willian Sant'Anna
 
 # Documentação
 
