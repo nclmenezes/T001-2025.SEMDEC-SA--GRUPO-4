@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * Dayane Ramos | @RamosDayane
 * Gabriel Henrique's | @Gabriel-HSM
 * Gisele Reis | @giseleprereis
-* Hugo Alves | @
+* Hugo Alves | @Hugoalves04c
 * Joadson Reis | @Joadsonreis1
 * Miguel Bispo Vianna | @miguel11xp
 * Nicole Menezes | @nclmenezes
