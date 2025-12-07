@@ -1,12 +1,13 @@
-# Título do Projeto
+# Localizador de Serviços de Saúde Acessíveis
 
-`DISCIPLINA`
 
-`NOME DO PROGRAMA`
+`Tecnologia da Informação`
+
+`FarMap`
 
 `2025` 
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+- Um app que mapeia e fornece informações sobre serviços de saúde públicos e acessíveis (clínicas, farmácias populares, etc.) em áreas de baixa renda, com horários de funcionamento e avaliações de usuários.
 
 ## Integrantes
 
@@ -16,7 +17,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * Gisele Reis | @giseleprereis
 * Hugo Alves | @Hugoalves04c
 * Joadson Reis | @Joadsonreis1
-* Miguel Bispo Vianna | @miguel11xp
+* Miguel Bispo Viana | @miguel11xp
 * Nicole Menezes | @nclmenezes
 * Raylane Ferreira | @raylaneferreira
 * Victor Hugo | @victordelego-hub
