@@ -11,16 +11,16 @@
 
 ## Integrantes
 
-* Abraão Santos | @AbraãoGênesis
-* Dayane Ramos | @RamosDayane
-* Gabriel Henrique's | @Gabriel-HSM
-* Gisele Reis | @giseleprereis
-* Hugo Alves | @Hugoalves04c
-* Joadson Reis | @Joadsonreis1
-* Miguel Bispo Viana | @miguel11xp
-* Nicole Menezes | @nclmenezes
-* Raylane Ferreira | @raylaneferreira
-* Victor Hugo | @victordelego-hub
+* Abraão Santos | [@AbraãoGênesis](https://github.com/AbraaoGenesis) 
+* Dayane Ramos | [@RamosDayane](https://github.com/RamosDayane)
+* Gabriel Henrique's | [@Gabriel-HSM](https://github.com/Gabriel-HSM/Gabriel-HSM)
+* Gisele Reis | [@giseleprereis](https://github.com/giseleprereis/giseleprereis)
+* Hugo Alves | [@Hugoalves04c](https://github.com/hugoalves04c/hugoalves04c)
+* Joadson Reis | [@Joadsonreis1](https://github.com/Joadsonreis1/Joadsonreis1)
+* Miguel Viana | [@miguel11xp](https://github.com/miguel11xp)
+* Nicole Menezes | [@nclmenezes](https://github.com/nclmenezes/nclmenezes)
+* Raylane Ferreira | [@raylaneferreira](https://github.com/raylaneferreira})
+* Victor Hugo | [@victordelego-hub](https://github.com/victordelego-hub)
 
 ## Orientador
 
