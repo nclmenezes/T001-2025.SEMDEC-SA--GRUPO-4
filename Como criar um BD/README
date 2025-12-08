@@ -1,0 +1,130 @@
+# Banco de Dados e Migrations – Guia de Configuração Local
+
+#### Este guia mostra como criar o banco de dados e aplicar migrations localmente usando C# com .NET e Entity Framework Core.
+
+## Pré-requisitos
+
+Antes de começar, você precisa ter instalado:
+
+* .NET SDK 
+
+* SQL Server ou outro banco compatível
+
+* CLI do Entity Framework
+
+
+**Para instalar a CLI do EF Core, execute:**
+
+```BASH
+dotnet tool install --global dotnet-ef
+```
+
+**Verifique a instalação:**
+
+```BASH
+dotnet ef --version
+```
+
+## Configurando o Banco no *appsettings.jso*
+
+No seu projeto C#, configure a connection string:
+
+```JSON
+"ConnectionStrings": {
+  "DefaultConnection": "Server=localhost;Database=MeuBanco;User Id=sa;Password=SuaSenha;TrustServerCertificate=True;"
+}
+
+```
+
+## Criando o *DbContext* em C#
+
+Crie a pasta Data e o *arquivo AppDbContext.cs*:
+
+```csharp
+using Microsoft.EntityFrameworkCore;
+
+namespace MeuProjeto.Data
+{
+    public class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<Usuario> Usuarios { get; set; }
+    }
+}
+```
+## Criando uma Entity (Model) em C#
+
+Exemplo: *Usuario.cs*
+
+```csharp
+namespace MeuProjeto.Models
+{
+    public class Usuario
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
+    }
+}
+```
+## Registrando o DbContext no *Program.cs*
+
+Adicione:
+
+```csharp
+using Microsoft.EntityFrameworkCore;
+using MeuProjeto.Data;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+var app = builder.Build();
+app.Run();
+```
+## Criando a primeira Migration
+
+No terminal, execute:
+
+```BASH
+dotnet ef migrations add InitialCreate
+```
+
+## Criando o banco e aplicando as migrations
+
+Execute:
+
+```BASH
+dotnet ef database update
+```
+### **Esse comando vai:**
+
+* ✅ Criar o banco
+
+* ✅ Criar as tabelas
+
+* ✅ Aplicar a estrutura baseada no código C#
+
+
+## Criando novas migrations
+
+Sempre que alterar um Model:
+
+```BASH
+dotnet ef migrations add NomeDaNovaMigration
+dotnet ef database update
+```
+## Resetando o banco (opcional)
+
+```BASH
+dotnet ef database drop -f
+dotnet ef database update
+```
+## Conclusão
+
+Seguindo esses passos, consegue-se criar, configurar e manter o banco de dados da sua aplicação de forma prática.
